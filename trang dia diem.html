@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Địa điểm</title>
+  <link rel="stylesheet" href="css/style-diadiem.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+<script>
+function start(id) {
+  document.getElementById("flex_item_left_"+id).style.transform = "translateX(0%)";
+  document.getElementById("flex_item_left_"+id).style.opacity = "1";
+}
+
+function back(id) {
+  document.getElementById("flex_item_left_"+id).style.transform = "translateX(100%)";
+  setTimeout(() => {
+    document.getElementById("flex_item_left_"+id).style.opacity = "0";
+  },1500);
+}
+
+</script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<body>
+	<div id="load-block">
+	<video class="video-background" width=100%  preload="auto" autoplay loop muted="muted" volume="0"> 
+            <source src="images/loading.mp4" type="video/mp4"> 
+	 </video>
+    <div class="load-svg"></div>
+    <div class="load-svg-color"></div>
+    <h1>0%</h1>
+  </div>
+	
+	<header>
+		<div class="logo">
+		<a href="trang chu.html#section-1"><img src="images/logo254b4b.png" width="50px"></a>
+		</div> 
+		<div class="menu">
+			<ul>
+  			<li><a href="gio hang.html"  style="margin: 0px; padding: 0px">
+				<img src="images/noun_basket_1549483.png" height="25px"> </a></li>
+ 		    <li><a href="trang chu.html#section-4">LIÊN LẠC</a></li>
+  			<li><a href="trang chu.html#section-3">BƯU THIẾP</a></li>
+  			<li><a href="trang chu.html#section-2">THÔNG TIN</a></li>
+			<li><a href="trang chu.html#section-1">TRANG CHỦ</a></li>
+			</ul>	
+		  
+		</div>
+     <div class="menu-ipad">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+      </header>
+	 <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="trang chu.html#section-1">TRANG CHỦ</a>
+    <a href="trang chu.html#section-2">THÔNG TIN</a>
+    <a href="trang chu.html#section-3">BƯU THIẾP</a>
+    <a href="trang chu.html#section-4">LIÊN LẠC</a>
+    <a href="gio hang.html">
+      <img src="images/noun_basket_1549483.png" height="25px"> </a>
+  </div>
+	
+<!-- partial:index.partial.html -->
+<div class="slider__warpper">
+  <div class="flex__container flex--pikachu flex--active" data-slide="1">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <h1 class="text--bigline">NHÀ THỜ</h1> <h1 class="text--big" style="color: #F7B75C">ĐỨC BÀ</h1>
+		  <hr class="new1" width="320px" align="left">
+        <p class="text--normal">Nhà thờ chính tòa Đức Bà Sài Gòn (tên chính thức: Vương cung thánh đường chính tòa Đức Mẹ Vô nhiễm Nguyên tội, tiếng Anh: Immaculate Conception Cathedral Basilica, tiếng Pháp: Cathédrale Notre-Dame de Saïgon, gọi tắt là Nhà thờ Đức Bà) là nhà thờ chính tòa của Tổng giáo phận Thành phố Hồ Chí Minh, một trong những công trình kiến trúc độc đáo của Sài Gòn, điểm đến của du khách trong và ngoài nước, nét đặc trưng của du lịch Việt Nam. Tên gọi ban đầu của nhà thờlà Nhà thờ Sài Gòn (tiếng Pháp: l'eglise de Saïgon), tên gọi Nhà thờ Đức Bà bắt đầu được sử dụng từ năm 1959.</p>
+        <br/>
+        <button type="button" onclick="start(1)" class="button button-start button1">
+          <span class="button-text">Xem thêm</span>
+        </button>
+      </div>
+    </div>
+    <div id="flex_item_left_1"  class="flex_page_1 flex_page_1--right">
+		<h1 class="text--big2" style="color: #F7B75C">Nhà thờ Đức Bà</h1>
+		<div class="linebox">
+		<div class="circle"><p style="color:#F7B75C">1</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Ngay sau khi chiếm Sài Gòn, thực dân Pháp đã cho lập ngôi nhà thờ dùng chỗ cử hành Thánh lễ cho người theo đạo Công giáo. Ngôi nhà thờ đầu tiên được lập ở đường Số 5 (nay là đường Ngô Đức Kế). Đây vốn là một ngôi chùa nhỏ của người Việt bị bỏ hoang do chiến cuộc, Linh mục Lefebvre đã tu sửa ngôi chùa này thành nhà thờ. Vì nhà thờ đầu tiên đó quá nhỏ nên vào năm 1863, Đô đốc Bonard đã quyết định cho khởi công xây dựng ở nơi khác một nhà thờ khác bằng gỗ bên bờ "Kinh Lớn" (còn gọi là kinh Charner, thời Việt Nam Cộng hòa là vị trí trụ sở Tòa Tạp tụng, tương ứng với vị trí tòa nhà Sun Wah ngày nay). Cố đạo Lefebvre tổ chức lễ đặt viên đá đầu tiên xây dựng nhà thờ vào ngày 28 tháng 3 năm 1863. Nhà thờ được dựng bằng gỗ, hoàn thành vào năm 1865, ban đầu gọi là Nhà thờ Saigon. Về sau, do nhà thờ gỗ này bị hư hại nhiều vì các côn trùng gây hại như mối và mọt gỗ, các buổi lễ được tổ chức trong phòng khánh tiết của Dinh Thống Đốc cũ, về sau cải thành trường học Lasan Taberd, cho đến khi nhà thờ lớn xây xong.
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color:#F7B75C">2</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Năm 1958, Linh mục Giuse Phạm Văn Thiên (sau làm Giám mục giáo phận Phú Cường, nay đã qua đời), cai quản Giáo xứ Sài Gòn thời ấy, đã đặt tạc một Tượng Đức Mẹ Hòa bình bằng loại đá cẩm thạch trắng Carrara của Ý. Tượng được tạc tại Pietrasanta cách Roma khoảng 500 km. Khi tượng hoàn tất thì được đưa xuống tàu Oyanox vào ngày 8 tháng 1 năm 1959 từ hải cảng Gênes chở tượng qua Việt Nam và tới Sài Gòn ngày 15 tháng 2 năm 1959. 
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color:#F7B75C">3</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Sau đó, công ty Société d'Entreprises đã dựng tượng Đức Mẹ lên bệ đá vốn còn để trống kể từ năm 1945 trước nhà thờ. Tự tay linh mục viết câu kinh cầu nguyện "Xin Đức Mẹ cho Việt Nam được hòa bình" rồi đọc trước đông đảo quan khách có mặt hôm ấy. Ngày hôm sau, Hồng y Aganianian từ Roma qua Sài Gòn để chủ tọa lễ bế mạc Đại hội Thánh Mẫu Toàn Quốc, đã làm phép bức tượng này vào buổi chiều ngày 17 tháng 2 năm 1959. Từ sự kiện này mà từ đó nhà thờ có tên gọi là Nhà thờ Đức Bà. Ngày 5 tháng 12 năm 1959, Tòa Thánh đã cho phép làm lễ "xức dầu", tôn phong Nhà thờ chính tòa Sài Gòn lên hàng tiểu Vương cung thánh đường (basilique). Từ đó, tên gọi chính thức của thánh đường là Vương cung thánh đường Đức Bà Sài Gòn. 
+			</p>
+      <div class="center">
+        <button type="button" onclick="back(1)" class="button button-back">
+          <span class="button-text">Quay về</span>
+        </button>
+      </div>
+    </div>
+    <div class="flex__item flex__item--right">
+	   <video width=100%  preload="auto" autoplay loop muted="muted" volume="0"> 
+            <source src="images/duc ba.mp4" type="video/mp4"> 
+	 </video>
+	  
+	  
+	  </div>
+  </div>
+  <div class="flex__container flex--piplup animate--start" data-slide="2">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+       <h1 class="text--bigline">NHÀ HÁT</h1> <h1 class="text--bignhahat" style="color: #a4c5a0 ">THÀNH PHỐ</h1>
+		  <hr class="new1" width="320px" align="left">
+        <p class="text--normal">Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố hoặc Nhà hát Lớn) là một nhà hát có mặt tiền hướng ra Công trường Lam Sơn và đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh. Nằm ở một vị trí thuận lợi tại trung tâm thành phố, nhà hát được xem là nhà hát trung tâm, đa năng chuyên tổ chức biểu diễn sân khấu nghệ thuật đồng thời cũng được sử dụng để tổ chức một số sự kiện lớn. Đây cũng là nhà hát thuộc loại lâu đời theo kiến trúc Tây Âu và được xem như một địa điểm tham quan của thành phố này.</p>
+        <br/>
+        <button type="button" onclick="start(2)" class="button button-start button2a">
+            <span class="button-text">Xem thêm</span>
+        </button>
+      </div>
+      <!-- <p class="text__background">Piplup</p> -->
+      
+    </div>
+    <div id="flex_item_left_2"  class="flex_page_1 flex_page_1--right">
+		<h1 class="text--big2" style="color: #a4c5a0 ">Nhà hát</h1>
+		<div class="linebox">
+		<div class="circle"><p style="color: #a4c5a0">1</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+		    Nhà hát lớn Sài Gòn là một đối trọng về mặt kiến trúc với Nhà hát lớn Hà Nội (cất năm 1911, kiến trúc theo mẫu Opéra Garnier tại Paris, 900 chỗ ngồi, kiến trúc sư Broger et Harloy). Nhà hát Sài Gòn giữ riêng nét đặc thù có một không hai. Tác giả của tòa kiến trúc này là các kiến trúc sư Félix Olivier, Ernest Guichard và Eugène Ferret xây dựng năm 1900 theo lối kiến trúc "flamboyant" của thời Đệ tam cộng hòa Pháp. Cửa mặt tiền chịu ảnh hưởng nghệ thuật khá rõ nét của Petit Palais cất cùng năm tại Pháp. 
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color: #a4c5a0">2</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Thiết kế bên trong tân tiến với đầy đủ thiết bị cho âm thanh và ánh sáng. Ngoài tầng trệt còn 2 tầng lầu tổng cộng 1800 chỗ ngồi. Toàn bộ các mẫu trang trí, phù điêu mặt tiền và nội thất đều được một họa sĩ tên tuổi ở Pháp vẽ giống như mẫu của các nhà hát ở Pháp cuối thế kỷ 19 và gửi từ Pháp qua. Vào năm 1998, nhân dịp kỷ niêm 300 thành lập Thành phố Hồ Chí Minh, chính quyền đương thời phục hồi chức năng cũ là nhà hát thành phố cũng như đã cho phục hồi một số trang trí như tượng 2 nữ thần nghệ thuật, các dây hoa, hai cây đèn... trong đợt cải tạo và nâng cấp nhà hát. Tổng kinh phí trùng tu phục chế vào khoảng 25 tỷ đồng thời giá bấy giờ. 
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color: #a4c5a0">3</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Nguyên thủy, vườn hoa trước Nhà hát không có tượng đài. Năm 1967, chính quyền Đệ Nhị Cộng hòa Việt Nam đã cho xây dựng tượng đài Thủy quân lục chiến cao 9 mét, trong tư thế xung phong hướng vào trụ sở Hạ viện. Dư luận đương thời cho đó là một điềm gở khi quân đội "chĩa súng" vào Quốc hội.Tác giả của bức tượng là ông Nguyễn Quốc Thắng - nguyên Phó giám đốc Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh, thuyết minh về tác phẩm như sau: "bố cục theo hình khối tròn, hình ảnh hai mẹ con trìu mến, người mẹ bao giờ cũng che chở cho con...". Tuy nhiên, giữa năm 2005, trong một bài phóng sự điều tra, báo Lao động đã đặt nghi vấn về bản quyền khi dẫn chứng của bức tượng "Tình mẫu tử" của bà Dương Lệ Vân, hội viên Uỷ ban Điêu khắc - Hiệp hội Mỹ thuật công nghệ Trung Quốc, được đăng trong đặc san điêu khắc do Hiệp hội Mỹ thuật - công nghệ Trung Quốc xuất bản tháng 8 năm 1995.Hiện nay, Vườn hoa trước Nhà hát Lớn đã được dỡ bỏ để xây dựng công trình metro đầu tiên của Thành phố Hồ Chí Minh, cũng như của toàn Việt Nam. 
+			</p>
+        <div class="center">
+          <button type="button" onclick="back(2)" class="button button-back">
+            <span class="button-text">Quay về</span>
+          </button>
+        </div>
+      </div>
+    <div class="flex__item flex__item--right">
+       <video width=100%  preload="auto" autoplay loop muted="muted" volume="0"> 
+            <source src="images/nha hat.mp4" type="video/mp4"> 
+	   </video>
+	</div>
+  </div>
+  <div class="flex__container flex--blaziken animate--start" data-slide="3">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <h1 class="text--bigline">TÒA NHÀ</h1> <h1 class="text--big" style="color:#97cecc ">BITEXCO</h1>
+		  <hr class="new1" width="320px" align="left">
+        <p class="text--normal">Tòa nhà Bitexco Financial, Bitexco Financial Tower hay Tháp Tài chính Bitexco là một tòa nhà chọc trời được xây dựng tại trung tâm Quận 1, Thành phố Hồ Chí Minh. Tòa nhà được xây dựng trên diện tích gần 6.100 m². Tổng vốn đầu tư ước tính khoảng 400 triệu đôla Mỹ, được tập đoàn bất động sản của Việt Nam là Bitexco Group có trụ sở tại Hà Nội đầu tư xây dựng. Công trình đã hoàn thành và đưa vào sử dụng vào ngày 31/10/2010 trở thành toà nhà cao nhất Việt Nam cho đến khi Keangnam Hanoi Landmark Tower vượt qua nó vào năm 2011. </p>
+        <br/>
+        <button type="button" onclick="start(3)" class="button button-start button3">
+            <span class="button-text">Xem thêm</span>
+          </button>
+      </div>
+      <!-- <p class="text__background">Blaziken</p> -->
+      
+    </div>
+    <div id="flex_item_left_3"  class="flex_page_1 flex_page_1--right">
+		<h1 class="text--big2" style="color:#97cecc ">Tòa nhà Bitexco</h1>
+		<div class="linebox">
+		<div class="circle"><p style="color:#97cecc">1</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+		    Hiện tại toà nhà là công trình cao thứ 4 Việt Nam, sau Landmark 81, Keangnam Hanoi Landmark Tower và Lotte Center Hanoi. Với kiến trúc lấy cảm hứng từ búp hoa sen đây là 1 biểu tượng cho sự hiện đại, năng động, phát triển của Thành phố Hồ Chí Minh.Tòa nhà Bitexco Financial đã được chọn làm điểm bắn pháo hoa trong 2 lần vào năm 2015. Tòa tháp này được thiết kế không phải để cạnh tranh về độ cao. "Cạnh tranh về độ cao không có ý nghĩa gì cả bởi bất cứ độ cao nào cũng có thể bị vượt qua một cách dễ dàng", ông Carlos Zapata, kiến trúc sư người Mỹ nhận định. 
+ 
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color:#97cecc">2</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Năm 2005, ông Zapata, kiến trúc sư chính của dự án đã tận dụng thử thách này để thiết kế một tòa nhà "khác thường" cho Tập đoàn Bitexco của Việt Nam. Vì vậy, điểm nhấn của thiết kế sẽ phải thể hiện được sự hiện diện vĩnh cửu của tòa tháp sao cho tòa tháp luôn được nhận biết thông qua hình dáng của nó dưới bất kì hình thức nào.Một trong những chủ định chính của kiến trúc sư Carlos Zapata trong thiết kế là thể hiện được văn hóa truyền thống của người Việt Nam. Ông giải thích, "Tòa nhà phải có sự liên hệ với văn hóa, và vì vậy chúng tôi đã làm một cuộc khảo sát để tìm ra các mối quan hệ giữa tòa tháp với con người, chủ yếu là mối quan hệ tâm linh bởi vì bạn không thể áp đặt một biểu tượng lên con người."Kết quả là, ông đã lấy ý tưởng thiết kế từ hình dáng búp sen, một biểu tượng của sự thanh khiết, và tính lạc quan, một hình ảnh chuẩn xác để thể hiện mục tiêu hướng về tương lai của tòa tháp. 
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color:#97cecc">3</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Hình ảnh búp sen đã được lựa chọn mà không phải là hình ảnh hoa sen bởi hình dáng thon mảnh và thanh lịch, truyền tải được ý nghĩa "vươn cao". Búp sen còn có ý nghĩa như là một phép ẩn dụ cho hình ảnh "Văn hóa Việt Nam đang nở rộ". Tòa tháp với những đường cong mềm mại, hợp lý như những đường nét uyển chuyển của áo dài, chiếc áo truyền thống của người Việt Nam. Tương tự, nhìn sân đậu trực thăng từ tầng trệt, chúng ta sẽ liên tưởng đến chiếc nón lá truyền thống của người phụ nữ Việt Nam. Kiến trúc của tòa tháp được thiết kế lồng ghép một cách tinh tế những nét văn hóa Việt.
+        <div class="center">
+          <button type="button" onclick="back(3)" class="button button-back">
+            <span class="button-text">Quay về</span>
+          </button>
+        </div>
+      </div>
+    <div class="flex__item flex__item--right">
+	  <video width=100%  preload="auto" autoplay loop muted="muted" volume="0"> 
+            <source src="images/bitexco.mp4" type="video/mp4"> 
+	   </video>
+	  
+	  </div>
+  </div>
+  <div class="flex__container flex--dialga animate--start" data-slide="4">
+    <div class="flex__item flex__item--left">
+      <div class="flex__content">
+        <h1 class="text--bigline">CHỢ</h1> <h1 class="text--big" style="color:#f1cd64 ">BẾN THÀNH</h1>
+		  <hr class="new1" width="320px" align="left">
+        <p class="text--normal">Chợ Bến Thành là một ngôi chợ nằm tại quận 1, Thành phố Hồ Chí Minh Chợ được khởi công xây dựng từ năm 1912 đến cuối tháng 3 năm 1914 thì hoàn tất. Trong nhiều trường hợp, hình ảnh đồng hồ ở cửa nam của ngôi chợ này được xem là biểu tượng không chính thức của Thành phố Hồ Chí Minh. Chợ Bến Thành thời kỳ đầu được xây bằng gạch, sườn gỗ, lợp tranh, được mô tả như là "phố chợ nhà cửa trù mật ở dọc theo bến sông.</p>
+        <br/>
+          <button type="button" onclick="start(4)" class="button button-start button4">
+              <span class="button-text">Xem thêm</span>
+            </button>
+      </div>
+      <!-- <p class="text__background">Dialga</p> -->
+      
+    </div>
+    <div id="flex_item_left_4"  class="flex_page_1 flex_page_1--right">
+		<h1 class="text--big2" style="color:#f1cd64 ">Chợ Bến Thành</h1>
+		<div class="linebox">
+		<div class="circle"><p style="color:#f1cd64">1</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+		    Chỗ đầu bến này có lệ đến đầu mùa xuân gặp ngày tế mạ, có thao diễn thủy binh, nơi bến có đò ngang chở khách buôn ngoài biển lên. Đầu phố phía Bắc là ngòi Sa ngư, có gác cầu ván ngang qua, hai bên nách cầu có dãy phố ngói, tụ tập trăm thứ hàng hóa, dọc bến sông ghe buôn lớn nhỏ đến đậu nối liền. Tuy nhiên, sau cuộc nổi loạn của Lê Văn Khôi (1833-1835), thành Quy bị triệt hạ, phố chợ Bến Thành cũng không còn sầm uất như trước. 
+
+ 
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color:#f1cd64">2</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+			Trước khi Pháp đánh chiếm Gia Định, khu vực xung quanh thành Gia Định (bấy giờ là thành Phụng) mới chỉ có 100 ngàn dân và chợ Bến Thành là nơi đông đúc nhất. Cạnh khu chợ, dọc theo bờ sông Bến Nghé, các ghe thương thuyền thường đậu chen chúc nhau, tạo thành một thành phố nổi trên mặt nước. Tuy nhiên, khi ấy khu họp chợ trên bến mới chỉ là một dãy nhà trống lợp ngói. Vào tháng 2 năm 1859, Pháp chiếm thành Gia Định và hai ngày sau, các binh lính người Việt đã tổ chức hỏa công thiêu rụi cả thành phố, tất nhiên chợ Bến Thành cũng bị thiêu hủy. Sau khi đã vững chân trên mảnh đất Nam Kỳ, năm 1860, người Pháp đã cho xây cất lại chợ Bến Thành ở địa điểm cũ (thời Việt Nam Cộng hòa là địa điểm Tổng Ngân khố, nay là Trường đào tạo cán bộ ngân hàng trên đường Nguyễn Huệ). Ngôi chợ được xây cất bằng cột gạch, sườn gỗ, và lợp lá. 
+		</p>
+		<div class="linebox">
+		<div class="circle"><p style="color:#f1cd64">3</p></div>
+		<hr class="new2" width="320px" align="left">
+		</div>
+		<p class="text--normal2">
+		    Thời đó, khu chợ được xây dựng bên bờ phía nam một con kênh, được gọi là Kinh Lớn. Phía trước chợ, dọc bờ kênh là một con đường được người Pháp đặt tên là đường Charner, hay một tên gọi khác là đường Quảng Đông (Rue de Canton), bởi đa số người Hoa làm nghề buôn bán ở đây đều là người Quảng Đông. Phía đối diện bờ kênh là đường Rigaul de Genouilly. Do vị trí nằm giao điểm của khu đô thị và hợp lưu của hai tuyến đường thủy là kênh Lớn và rạch Cầu Sấu (nay là đường Hàm Nghi), ghe thuyền có thể cập bến và đổ người lên chợ bất cứ ở phía bên này hay bên kia. Còn người bên đất liền muốn qua chợ thì có thể đi qua những chiếc cầu gỗ xinh xắn, do đó chợ Bến Thành luôn luôn nhộn nhịp.
+			</p>
+        <div class="center">
+          <button type="button" onclick="back(4)" class="button button-back">
+            <span class="button-text">Quay về</span>
+          </button>
+        </div>
+      </div>
+    <div class="flex__item flex__item--right">
+	  <video width=100%  preload="auto" autoplay loop muted="muted" volume="0"> 
+            <source src="images/ben thanh (1).mp4" type="video/mp4"> 
+	   </video>
+	  </div>
+  </div>
+  
+</div>
+
+<div class="slider__navi">
+  <a href="#" class="slide-nav active" data-slide="1">
+    <span class="tooltiptext">Đức Bà</span>
+  </a>
+  <a href="#" class="slide-nav" data-slide="2">
+    <span class="tooltiptext">Nhà Hát</span>
+  </a>
+  <a href="#" class="slide-nav" data-slide="3">
+    <span class="tooltiptext">Bitexco</span>
+  </a>
+  <a href="#" class="slide-nav" data-slide="4">
+    <span class="tooltiptext">Bến Thành</span>
+  </a>
+</div>
+<!-- partial -->
+  <!-- <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script> -->
+  <script  src="js/script-diadiem.js"></script>
+
+</body>
+</html>
